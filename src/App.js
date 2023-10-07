@@ -1,10 +1,10 @@
 
-import './App.css';
+
 import Login from './components/Login';
 import RegisterForm from './components/RegisterForm';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import UserLoginPage from './components/UserLoginPage';
-import Navbar from './components/Navbar';
+
 import Footer from './components/Footer';
 
 
