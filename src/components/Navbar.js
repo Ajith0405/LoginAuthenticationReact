@@ -14,22 +14,22 @@ const Navbar = (props) => {
                     <div className="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
                         <ul className="navbar-nav">
                            {!isAunthenticate()?(
-                           <li className="nav-item">
+                           <li className="nav-item mx-auto">
                                 <a className="nav-link" href="/register" style={{fontWeight:'800', color:'white'}} ><i class="fa-solid fa-list fa-lg"></i> Register</a>
                             </li>
                             ):null}
                            {!isAunthenticate()?(
-                           <li className="nav-item">
+                           <li className="nav-item mx-auto">
                                 <a className="nav-link" href="/login" style={{fontWeight:'800', color:'white'}}> <i class="fa-solid fa-right-to-bracket fa-lg"></i> Login</a>
                             </li>
                             ):null}
                             {isAunthenticate()?(
-                            <li className="nav-item">
+                            <li className="nav-item mx-auto">
                                 <a className="nav-link" href="/userlogin" style={{fontWeight:'800', color:'white'}}><i class="fa-solid fa-user fa-lg"></i> Dashboard</a>
                             </li>
                             ):null}
                             {isAunthenticate()?(
-                            <li className="nav-item">
+                            <li className="nav-item mx-auto">
                                 <a className="nav-link" onClick={props.LogoutUser} style={{fontWeight:'800', color:'white',cursor:'pointer'}} >Logout <i class="fa-solid fa-right-from-bracket fa-lg"></i></a>
                             </li> 
                             ):null}
