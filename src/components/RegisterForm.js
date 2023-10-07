@@ -127,7 +127,7 @@ const RegisterForm = () => {
                             <input type="password" className="form-control w-75 ms-5" id="password" name='password' onChange={handleInput} />
                         </div>
                         {errors.password.required ? (
-                            <span className="text-danger" >
+                            <span className="text-danger ms-5" >
                                 Password is required.
                             </span>
 
